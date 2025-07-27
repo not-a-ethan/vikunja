@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Vikunja</string>
+    <string name="login_button">LOGIN</string>
+    <string name="login_password_hint">eg: ***************</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_username_label">Username or Email Address</string>
+    <string name="login_apiURL_label">Vikunja API URL</string>
+    <string name="login_username_hint">eg: frederick</string>
+    <string name="login_apiURL_hint">https://try.vikunja.io/api/v1</string>
+    <string name="vikunja">Vikunja</string>
+    <string name="vikunja_logo">Vikunja Logo</string>
+</resources>
