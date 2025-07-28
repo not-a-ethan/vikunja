@@ -35,15 +35,16 @@
         android:layout_width="377dp"
         android:layout_height="58dp"
         android:layout_marginTop="160dp"
+        android:autofillHints=""
         android:ems="10"
-        android:inputType="textUri"
         android:hint="@string/login_apiURL_hint"
+        android:inputType="textUri"
+        android:textColor="@color/White_Text"
         android:textColorHint="@color/hint_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/username"
@@ -52,8 +53,9 @@
         android:layout_marginTop="24dp"
         android:autofillHints="username"
         android:ems="10"
-        android:inputType="text"
         android:hint="@string/login_username_hint"
+        android:inputType="text"
+        android:textColor="@color/White_Text"
         android:textColorHint="@color/hint_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
@@ -106,15 +108,16 @@
         android:autofillHints="password"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="@string/login_password_hint"
-        android:textColor="@color/hint_color"
+        android:hint="@string/login_password_hint"
+        android:textColorHint="@color/hint_color"
+        android:textColor="@color/White_Text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.454"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
